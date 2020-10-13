@@ -1,0 +1,119 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements absolute to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.table {
+    width: 1000px;
+    height: 400px;
+    background: #a4de61;
+    position: absolute;
+    bottom: 0px;
+    transform: skewX(-42deg);
+}
+
+.pumpkin {
+    margin: 30px auto;
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background: #4c7719;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.vase {
+    margin: 30px auto;
+    position: absolute;
+    bottom: 140px;
+    left: 264px;
+    width: 200px;
+    height: 500px;
+    background: #7cbb32cc;
+    border-radius: 25%;
+    z-index: 1;
+
+}
+
+.squash {
+    margin: 30px auto;
+    position: absolute;
+    bottom: 30px;
+    left: 92px;
+    width: 300px;
+    height: 200px;
+    background: #cbf555;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.candle {
+	    margin: 30px auto;
+    position: absolute;
+    bottom: 156px;
+    left: 617px;
+    width: 30px;
+    height: 400px;
+    background: #d0cd21;
+    border-radius: 0%;
+    z-index: 1;
+
+}
+
+
+.candle2 {
+	    margin: 30px auto;
+    position: absolute;
+    bottom: 156px;
+    left: 111px;
+    width: 30px;
+    height: 400px;
+    background: #d0cd21;
+    border-radius: 0%;
+    z-index: 1;
+    }
+
+.squash2 {
+    margin: 30px auto;
+    position: absolute;
+    bottom: 176px;
+    left: 293px;
+    width: 298px;
+    height: 140px;
+    background: #cbf555;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.pot {
+    margin: 30px auto;
+    position: absolute;
+    bottom: 30px;
+    left: 580px;
+    width: 300px;
+    height: 273px;
+    background: #3a490e;
+    border-radius: 40%;
+    z-index: 1;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: absolute;
+}
+
+/* Your CSS goes here */
+
